@@ -107,17 +107,47 @@ h1{
 }
 #left{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     width: calc(100%/3);
     /* min-height: inherit; */
     color: #fff;
-    /* padding: 0 3vw; */
+    padding: 0 3vw;
+  
     /* background-color: yellow;  */
 }
 #left h1{
     line-height: 1;
-    font-size: 3vw;
+    font-size: 4vw;
+    margin-bottom: 2vw;
+}
+#left p{
+    width: 80%;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+#left button{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(196, 20, 20);
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 20px 34px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+}
+#left button i{
+    margin-right:10px;
+}
+#left h1 span{
+font-weight: 300;
+color: red;
 }
 #middle{
     display: flex;
