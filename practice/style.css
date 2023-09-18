@@ -106,9 +106,18 @@ h1{
     /* background-color: red; */
 }
 #left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(100%/3);
     min-height: inherit;
-    background-color: yellow; 
+    color: #fff;
+    padding: 0 3vw;
+    /* background-color: yellow;  */
+}
+#left h1{
+    line-height: 1;
+    font-size: 3vw;
 }
 #middle{
     display: flex;
