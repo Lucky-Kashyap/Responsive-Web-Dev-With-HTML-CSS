@@ -110,9 +110,9 @@ h1{
     justify-content: center;
     align-items: center;
     width: calc(100%/3);
-    min-height: inherit;
+    /* min-height: inherit; */
     color: #fff;
-    padding: 0 3vw;
+    /* padding: 0 3vw; */
     /* background-color: yellow;  */
 }
 #left h1{
@@ -125,12 +125,13 @@ h1{
     align-items: center;
     width: calc(100%/3);
     min-height: inherit;
+    color: #fff;
     /* background-color: rebeccapurple; */
 }
 #middle #tomb{
     width: 90%;
     min-height: 70vh;
-    background-color: blue;
+    background-color: red;
     border-top-left-radius: 500px;
     border-top-right-radius: 500px;
 }
